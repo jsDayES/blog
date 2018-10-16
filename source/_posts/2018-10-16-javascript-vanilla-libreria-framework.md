@@ -1,17 +1,17 @@
 ---
 title: Javascript ¿Vanilla? ¿Librería? ¿Framework?
 tags:
-- Kairós
-- Javascript
-- Vanilla
-- Librería
-- Framework
-- Craftmanship
+  - Kairós
+  - Javascript
+  - Vanilla
+  - Librería
+  - Framework
+  - Craftmanship
 twitter_creator: kairos_ds
+date: 2018-10-16 18:32:21
 ---
 
 {% asset_img jslibs.png %}
-
 
 En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no iniciada o recién iniciada en el mundo del desarrollo de Javascript al principio les cuesta entenderlo.
 
