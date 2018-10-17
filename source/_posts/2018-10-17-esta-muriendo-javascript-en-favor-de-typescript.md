@@ -7,7 +7,9 @@ tags:
   - Typescript
   - Developer
 twitter_creator: BABELgrupo
+date: 2018-10-17 12:37:47
 ---
+
 {% asset_img Blog_JSDayEs_3.jpg '' %}
 _Clickbait detected_. La verdad es que sí, el título de esta entrada solo tenía el propósito de llamar la atención.
 
