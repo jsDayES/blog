@@ -57,7 +57,7 @@ En esta misma línea [CORUS](https://www.corusconsulting.com/) apoya el JSDayES.
 <div class="sponsor" style="border-color: #44ae33">
   <a class="logo" href="https://www.corusconsulting.com/"><img src="corus.png" alt="Corus" /></a>
   <div class="bio">
-    <strong>CORUS</strong> es una empresa innovadora, en proceso de crecimiento y expansión internacional, con la solidez de más de 15 años de experiencia dentro del sector IT.
+    <p><strong>CORUS</strong> es una empresa innovadora, en proceso de crecimiento y expansión internacional, con la solidez de más de 15 años de experiencia dentro del sector IT.</p>
   </div>
 </div>
 {% endraw %}

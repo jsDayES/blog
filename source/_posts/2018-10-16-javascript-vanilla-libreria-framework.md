@@ -72,7 +72,7 @@ Por eso [Kairós](https://www.kairosds.com/) está formado y buscamos profesiona
 <div class="sponsor" style="border-color: #fe7902">
   <a class="logo" href="https://www.kairosds.com/"><img src="kairos.png" alt="Kairós" /></a>
   <div class="bio">
-    <strong>Kairós DS</strong> es una boutique tecnológica que ayuda a otras empresa en su camino hacia la transformación digital. Especializada en el ámbito de gobierno digital/agile y soluciones digitales, tiene presencia en Madrid, México, Perú y Londres.
+    <p><strong>Kairós DS</strong> es una boutique tecnológica que ayuda a otras empresa en su camino hacia la transformación digital. Especializada en el ámbito de gobierno digital/agile y soluciones digitales, tiene presencia en Madrid, México, Perú y Londres.</p>
   </div>
 </div>
 {% endraw %}
