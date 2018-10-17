@@ -41,9 +41,12 @@ Para finalizar la entrada, remarcar que el propósito principal de la misma no e
 <div class="sponsor" style="border-color: #e3692e">
   <a class="logo" href="https://babel.es/"><img src="babel.png"  alt="Babel"/></a>
   <div class="bio">
-    <strong>BABEL</strong> es una empresa internacional que presta servicios tecnológicos orientados a acompañar a grandes organizaciones en su proceso de Transformación Digital. Tenemos oficinas en Barcelona, Casablanca, Ciudad de México, Lisboa, Londres, Madrid, Querétaro y Sevilla.
-    <br />
-    <a href="http://trabajaen.babel.es/">¿Te gustaría trabajar con nosotros?</a>
+    <p>
+      <strong>BABEL</strong> es una empresa internacional que presta servicios tecnológicos orientados a acompañar a grandes organizaciones en su proceso de Transformación Digital. Tenemos oficinas en Barcelona, Casablanca, Ciudad de México, Lisboa, Londres, Madrid, Querétaro y Sevilla.
+    </p>
+    <p>
+      <a href="http://trabajaen.babel.es/">¿Te gustaría trabajar con nosotros?</a>
+    </p>
   </div>
 </div>
 {% endraw %}
