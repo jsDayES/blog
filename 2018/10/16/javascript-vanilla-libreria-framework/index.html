@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Javascript ¿Vanilla? ¿Librería? ¿Framework? | JSDayES | Madrid, 20 Octubre 2018</title>
+
+  
+  <meta name="author" content="JSDayES Org">
+  
+
+  
+  <meta name="description" content="En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no iniciada o recién iniciada en el mundo del desarrollo de Javascript al principio les cuesta entenderlo.
+Aunque cualquier comparación que haga no será del todo fidedigna y dará pie a interpretaciones diferentes, una de las que utilizo para explicarlo a las personas que no desarrollan es comparar el desarrollo de Javascript con cocinar.">
+  
+
+  
+  
+  <meta name="keywords" content="Javascript,Kairós,Vanilla,Librería,Framework,Craftmanship">
+  
+
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta property="og:title" content="Javascript ¿Vanilla? ¿Librería? ¿Framework?"/>
+
+  <meta name="description" content="En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no">
+<meta name="keywords" content="Javascript,Kairós,Vanilla,Librería,Framework,Craftmanship">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Javascript ¿Vanilla? ¿Librería? ¿Framework?">
+<meta property="og:url" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/index.html">
+<meta property="og:site_name" content="JSDayES">
+<meta property="og:description" content="En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no">
+<meta property="og:locale" content="es">
+<meta property="og:image" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/jslibs.png">
+<meta property="og:image" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/utensilios_cocina.png">
+<meta property="og:image" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/tmix.png">
+<meta property="og:image" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/kairos.png">
+<meta property="og:updated_time" content="2018-10-18T14:16:07.477Z">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Javascript ¿Vanilla? ¿Librería? ¿Framework?">
+<meta name="twitter:description" content="En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no">
+<meta name="twitter:image" content="https://blog.jsday.es/2018/10/16/javascript-vanilla-libreria-framework/jslibs.png">
+<meta name="twitter:creator" content="@kairos_ds">
+<meta name="twitter:site" content="@JSDayES">
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="JSDayES" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+
+  <!-- START Cookies Alert -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f7df1e"
+        }
+      },
+      "theme": "edgeless",
+      "position": "bottom-right",
+      "content": {
+        "message": "Hola, utilizamos cookies, solo para rastrear visitas a nuestro sitio web, no almacenamos datos personales.",
+        "dismiss": "Ok, entendido!",
+        "link": "Más información"
+      }
+    })});
+  </script>
+  <!-- END Cookies Alert -->
+</head>
+
+
+<body>
+<div class="blog">
+  <div class="content">
+
+    <header>
+  <div class="site-branding">
+    <h1 class="site-title">
+      <a href="/">
+        <span class="js">JS</span>DayES Blog
+      </a>
+    </h1>
+    <p class="site-description">Madrid, 20 Octubre 2018</p>
+  </div>
+  <nav class="site-navigation">
+    <ul>
+      
+        <li>
+            
+                <li><a href="/">Inicio</a></li>
+            
+        </li>
+      
+        <li>
+            
+                <li><a href="/archives">Archivos</a></li>
+            
+        </li>
+      
+    </ul>
+  </nav>
+</header>
+
+
+    <main class="site-main posts-loop">
+    <article>
+
+  
+    
+    <h3 class="article-title"><span>Javascript ¿Vanilla? ¿Librería? ¿Framework?</span></h3>
+    
+  
+
+  <div class="article-top-meta">
+    <span class="posted-on">
+      <a href="/2018/10/16/javascript-vanilla-libreria-framework/" rel="bookmark">
+        <time class="entry-date published" datetime="2018-10-16T16:32:21.000Z">
+          2018-10-16
+        </time>
+      </a>
+    </span>
+  </div>
+
+
+  
+
+  <div class="article-content">
+    <div class="entry">
+      
+        <img src="/2018/10/16/javascript-vanilla-libreria-framework/jslibs.png">
+<p>En el ecosistema del desarrollo de Javascript es común hablar de todos estos términos y cuando haces una entrevista de trabajo se nombran con toda seguridad todos o algunos de ellos. Para la gente no iniciada o recién iniciada en el mundo del desarrollo de Javascript al principio les cuesta entenderlo.</p>
+<p>Aunque cualquier comparación que haga no será del todo fidedigna y dará pie a interpretaciones diferentes, una de las que utilizo para explicarlo a las personas que no desarrollan es comparar el desarrollo de Javascript con cocinar.</p>
+<a id="more"></a>
+<p>Al final cocinar, desarrollar, requiere de un conjunto de habilidades y conocimientos que te sirven, llevados a la práctica, para crear un producto o hacer realidad una idea, sea un buen plato o un buen programa. Es evidente que para cocinar no hace falta haber ido a <em>“Le Cordon Bleu”</em> de París y que simplemente haber visto a tu padre/madre o a tu abuela o incluso un programa de <em>MasterChef</em>, te pueden animar a liarte la manta a la cabeza y ponerte a ello y hacer al menos un plato sencillo.</p>
+<p>¿Qué se requiere para ello? Una fuente de calor, un recipiente adecuado, algunos ingredientes y una idea/receta.</p>
+<p>¿Y para desarrollar en Javascript? Un navegador, un editor de texto y algunos conocimientos básicos de programación.</p>
+<p>Es evidente que para encontrar trabajo hoy en día como desarrollador de Javascript no es suficiente con saber freír un huevo y cocer unos espaguetis. No. Puede que haya en algunos sitios donde se dediquen a freír huevos y tengas cabida, pero no es lo común. Al final serán necesarios muchos más conocimientos de recetas, de ingredientes, de cómo se comportan estos ingredientes, cómo mezclarlos y maridarlos, diferentes formas de cocinarlos… Esto solo te lo da el estudio y/o años de experiencia junto a desarrolladores con más experiencia y/o conocimiento que tú.</p>
+<p>Si vamos a hacer un cocido y lo cocinamos de manera artesanal, haciendo todos y cada unos de los pasos que necesitamos, con ingredientes del corral y la huerta, criados y cultivados por ti durante mucho tiempo, cocinando a fuego lento, en fuego de leña, en cazuela de barro… Nadie nos discutirá que ese cocido será el mejor cocido que puedas comer.</p>
+<p>Si vas a desarrollar en Javascript, puedes hacer lo mismo y ser lo más artesanal posible, y dedicarle muchas horas a ello y es probable que, si tienes el conocimiento y la experiencia suficientes, tu programa sea de mucha mayor calidad. Pero con el tiempo y las necesidades que tenemos hoy en día, si te quieres dedicar al mundo del desarrollo de aplicaciones en Javascript, es decir, si montas o trabajas en un restaurante, no sale a cuenta hacer cocidos de manera artesanal, porque requeriría de mucho tiempo y esfuerzo, y para compensarlo tendrías que cobrar el cocido a un precio del <em>Bully</em> o del <em>Celler de Can Roca</em>.</p>
+<h3 id="¿Que-es-una-libreria"><a href="#¿Que-es-una-libreria" class="headerlink" title="¿Qué es una librería?"></a>¿Qué es una librería?</h3><p>Al final después de años de experiencia y de desarrollo de Javascript, nos hemos ido dando cuenta que hay cosas que se repiten para cocinar muchos programas y para ello se crearon las <em>“libraries”</em> o mal traducidas al español como <em>librerías</em>. Las librerías son herramientas, o conjuntos de ingredientes precocinados, que nos sirven para acelerar y crear esas recetas o muchas nuevas de una manera más rápida y eficiente y con calidad y sabor notable. Por ejemplo un brick de caldo de pollo, un preparado de verduras cortadas y congeladas, una batidora….</p>
+<p>En javascript tenemos muchas librerías también, la más famosa hace unos años y que aún perdura es <em>jQuery</em>. Tenemos otras como <em>lodash</em>, <em>underscore</em>, <em>backbone</em>… Todas ellas nos ayudan y ahorran tiempo para hacer nuestras recetas, dándonos cosas que se repiten en la mayoría de las recetas.</p>
+<p>¿Cual es el problema a día de hoy en muchos desarrolladores de Javascript? Qué saben usar el caldo de pollo, pero jamás hicieron uno en toda su vida.</p>
+<p>¿Y esto es malo? Pues la experiencia demuestra que tarde o temprano sí. Se encontrará por ejemplo con que una receta no sabe bien y no sabrá por qué, porque hay un ingrediente de tu receta que también está en el caldo precocinado y hace que esa sobrecarga de sabor de ese ingrediente no le de a tu plato el sabor esperado, por ejemplo.</p>
+<p>Hay que saber hacer el caldo y saber qué lleva, es decir, haber hecho o conocer cómo funciona la librería usada. Si la cocinas tú lo más probable es que esa librería solo sirva en tu restaurante para unas determinadas recetas, o programas, y solo en algunos casos, adquiere suficiente fama como para que sea adoptada por cientos de miles de cocineros, desarrolladores, que cocinan recetas, programan aplicaciones, con las mismas necesidades que tú.</p>
+<p>Por eso, todo buen chef, desarrollador, al menos una vez en su vida, habrá hecho algunos buenos caldos desde cero o al menos habrá desgranado, analizado y estudiado una librería.<br>Conocer la base es una garantía de saber hacer buenas recetas/programas.</p>
+<h3 id="¿Y-que-es-un-framework"><a href="#¿Y-que-es-un-framework" class="headerlink" title="¿Y que es un framework?"></a>¿Y que es un framework?</h3><p>Pues el framework es ir un paso más allá. No es solo tener un conjunto de librerías, sino ser capaces de acoplarlas y orquestarlas para que siguiendo unos mínimos pasos seamos capaces de crear aplicaciones completas. Y tenemos frameworks progresivos y no progresivos.</p>
+<p>Frameworks progresivos es por ejemplo VueJS. Este te ofrece caldo de cocido, de carne, de verduras… Olla express, batidora, trituradora… Y puedes usar lo que te venga bien e ir usando más cosas conforme la receta se complique.</p>
+<img src="/2018/10/16/javascript-vanilla-libreria-framework/utensilios_cocina.png">
+<p>Y un framework no progresivo es por ejemplo Angular. Que sería como la Thermomix. Lo hace todo, bien, rápido… menús completos de manera sencilla.</p>
+<img src="/2018/10/16/javascript-vanilla-libreria-framework/tmix.png">
+<h3 id="Resumiendo"><a href="#Resumiendo" class="headerlink" title="Resumiendo"></a>Resumiendo</h3><ul>
+<li>Javascript Vanilla es la manera artesanal de programar en javascript.</li>
+<li>Las librerías de Javascript nos ayudan de programar más rápido y con cierta garantía, pero si te falta la base artesanal puede que a veces te falle la receta.</li>
+<li>Los frameworks progresivos/no progresivos nos ayudan a desarrollar grandes y complejas aplicaciones automatizando muchos procesos y facilitando el conjunto de la programación.</li>
+</ul>
+<p><strong>Conclusión:</strong> Cualquiera puede usar la Thermomix y hacer una buena receta, pero cualquiera no sabe hacer un buen cocido artesanal ni una esferificación de sopa de cocido.</p>
+<p>Por eso <a href="https://www.kairosds.com/" target="_blank" rel="noopener">Kairós</a> está formado y buscamos profesionales que conocen la artesanía de Javascript vanilla, que conocen varias librerías y/o al menos un framework. Apostamos por el desarrollo profesional progresivo y constante de todos nuestros desarrolladores, ofreciéndoles formación interna y una bolsa económica para que haga cursos y se certifique, sin más contraprestación de que aprenda y evolucione.</p>
+
+<div class="sponsor" style="border-color: #fe7902">
+  <a class="logo" href="https://www.kairosds.com/" target="_blank" rel="noopener"><img src="kairos.png" alt="Kairós"></a>
+  <div class="bio">
+    <p><strong>Kairós DS</strong> es una boutique tecnológica que ayuda a otras empresa en su camino hacia la transformación digital. Especializada en el ámbito de gobierno digital/agile y soluciones digitales, tiene presencia en Madrid, México, Perú y Londres.</p>
+  </div>
+</div>
+
+
+      
+    </div>
+
+  </div>
+
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+
+    
+
+    
+    
+
+    <span class="post-tags">
+      <i class="icon-tags"></i>
+        <a href="/tags/Javascript/">Javascript</a><a href="/tags/Kairos/">Kairós</a><a href="/tags/Vanilla/">Vanilla</a><a href="/tags/Libreria/">Librería</a><a href="/tags/Framework/">Framework</a><a href="/tags/Craftmanship/">Craftmanship</a>
+    </span>
+    
+
+    </div>
+
+    
+  </div>
+</article>
+
+
+    </main>
+
+    <footer class="site-footer">
+  <p class="site-info">
+    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
+    Theme jsdayes (based on <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>)
+    </br>
+    
+    &copy; 2018 JSDayES Org
+    
+  </p>
+</footer>
+
+    
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122951526-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122951526-2');
+  </script>
+
+
+  </div>
+</div>
+</body>
+</html>

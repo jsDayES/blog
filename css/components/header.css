@@ -1,0 +1,53 @@
+header .site-branding {
+  text-align: center;
+  font-family: "Cabin", arial, sans-serif;
+  line-height: 4rem;
+}
+header .site-branding .site-title {
+  font-family: NeutraText, "Cabin", arial, sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  margin: 0;
+}
+header .site-branding .site-title a {
+  color: #000;
+}
+header .site-branding .site-title a .js {
+  background-color: #f7df1e;
+  color: #fff;
+  line-height: 4rem;
+  padding: 3.5rem 0.7rem 0 4rem;
+}
+header .site-branding .site-description {
+  color: #9e9e9e;
+  font-size: 2.5rem;
+  margin: 1rem 0 0;
+}
+header .site-navigation {
+  text-align: center;
+  margin-top: 5rem;
+}
+header .site-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.6em;
+}
+header .site-navigation ul li {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+header .site-navigation ul li a,
+header .site-navigation ul li span {
+  display: block;
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding: 0 1rem;
+}
+header .site-navigation ul li a:hover {
+  border-bottom: 3px solid #f7df1e;
+}
+header .site-navigation ul li span {
+  border-bottom: 2px solid #000;
+}
