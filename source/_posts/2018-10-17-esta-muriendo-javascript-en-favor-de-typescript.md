@@ -3,7 +3,7 @@ title: ¿Está muriendo JavaScript en favor de TypeScript?
 tags:
   - Javascript
   - JS
-  - Bable
+  - Babel
   - Typescript
   - Developer
 twitter_creator: BABELgrupo
