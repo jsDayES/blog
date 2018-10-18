@@ -1,19 +1,22 @@
 ---
 title: Como escalar los equipos en el desarrollo web empresarial
 tags:
-  - web
-  - team building
-  - management
+  - angular
+  - development
   - gft
+  - management
+  - team building
+  - web
+date: 2018-10-18 10:02:36
 ---
+
+{% asset_img Matrioskes.jpg '"Matrioskes" por Miquel Bohigas Costabella' %}
 
   Para muchos de nosotros, el desarrollo web es, simplemente, apasionante. Estar al tanto de las últimas tendencias en desarrollo, los últimos cambios de nuestro framework de cabecera o incluso de sus competidores, son parte de nuestro día a día. Por ese motivo, seguramente, estás ahora leyendo este artículo en el blog de JSDayES.
 
   Aun así, es todo un reto -en este escenario tan cambiante- trasladar todo esto a nuestros proyectos profesionales. Si pensamos en el escenario del desarrollo empresarial donde, normalmente, no desarrollamos una aplicación solos sino que trabajamos en equipos de 5, 15 o 50 desarrolladores, nos enfrentamos al reto de adoptar las mejores prácticas de manera uniforme por todo el equipo.
 
-{% asset_img Matrioskes.jpg '"Matrioskes" por Miquel Bohigas Costabella' %}
 <!-- more -->
-<center><small>Imagen _"Matrioskes"_ de [Miquel Bohigas Costabella](https://www.flickr.com/photos/desdibuix/5142832305/in/photostream/)</small></center>
 
   No voy a extenderme mucho en el detalle de los problemas que este escenario requiere superar por no hacer este artículo interminable. Hablemos de las soluciones. Ya sea definiendo arquitecturas reusables para múltiples proyectos, o trabajando en el liderazgo técnico de un proyecto suficientemente grande, estas prácticas te ayudarán.
 
