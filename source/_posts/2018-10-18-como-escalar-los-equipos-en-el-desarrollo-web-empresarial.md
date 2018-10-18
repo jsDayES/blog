@@ -7,6 +7,7 @@ tags:
   - management
   - team building
   - web
+twitter_creator: gft_es
 date: 2018-10-18 10:02:36
 ---
 
